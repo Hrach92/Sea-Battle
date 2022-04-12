@@ -1,0 +1,79 @@
+.img{
+    padding: 0;
+    background-image: url('https://wallpaperaccess.com/full/3771007.jpg');
+    height: 655px;
+    width: 1350px;
+    background-repeat: no-repeat;
+}
+.board{
+    padding: 20px;
+    width: 220px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cell{
+    box-sizing: border-box;
+    border-radius: 2px;
+    border: 1px solid rgb(50, 52, 192);
+    text-align: center; 
+    width: 20px;
+    height: 20px;
+    background-color: rgb(93, 163, 228);
+}
+.ship2x{
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.ship3x{
+    position: absolute;
+    width: 60px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.shipCell{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(99, 10, 241);
+    border-radius: 2px;
+}
+.btn{
+    position: absolute;
+    top: 20px;
+    left: 300px;
+}
+.link{
+    text-decoration: none;
+}
+.link:hover{
+    color: red;
+}
+.link2{
+    position: absolute;
+    text-decoration: none;
+    font-size:1.5em;
+    color: rgb(226, 12, 12);
+    top: 20px;
+    left: 50px;
+}
+.link2:hover{
+    font-size: 1.7em;
+}
+.player{
+    position: absolute;
+    color:rgb(206, 231, 210) ;
+    top: 420px;
+    left: 30px;
+    font-size: 1.3em;
+}
+.win{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    font-size: 1.5em;
+    color: red;
+}
